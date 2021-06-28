@@ -31,6 +31,7 @@ from DISClib.ADT import list as lt
 from DISClib.Algorithms.Sorting import shellsort as sa
 assert cf
 
+
 """
 Se define la estructura de un catálogo de libros.
 El catálogo tendrá tres listas, una para libros, otra para autores
@@ -205,3 +206,4 @@ def sortBooks(catalog, size):
     stop_time = time.process_time()
     elapsed_time_mseg = (stop_time - start_time)*1000
     return elapsed_time_mseg, sorted_list
+
